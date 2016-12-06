@@ -1,0 +1,199 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+/* Start font-family */
+
+@font-face {
+    font-family: "LatoRegular";
+    src: url("../fonts/LatoRegular/LatoRegular.eot");
+    src: url("../fonts/LatoRegular/LatoRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/LatoRegular/LatoRegular.woff") format("woff"),
+    url("../fonts/LatoRegular/LatoRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "LatoBold";
+    src: url("../fonts/LatoBold/LatoBold.eot");
+    src: url("../fonts/LatoBold/LatoBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/LatoBold/LatoBold.woff") format("woff"),
+    url("../fonts/LatoBold/LatoBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "LatoLight";
+    src: url("../fonts/LatoLight/LatoLight.eot");
+    src: url("../fonts/LatoLight/LatoLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/LatoLight/LatoLight.woff") format("woff"),
+    url("../fonts/LatoLight/LatoLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* End font-family */
+
+body {
+ 	background-color: #fff;
+  	color: #393939;
+  	font-family: "LatoBold", sans-serif;
+  	font-size: 16px;
+  	line-height: 1.6em;
+  	text-align: center;
+}
+
+img{
+	height: 1%;
+}
+
+#page-wrapper {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+#content {
+	flex-grow: 1;
+}
+
+/* Start header */
+
+header, 
+.services, 
+.our-works {
+	color: #fff;
+}
+
+header,  
+.our-works {
+	text-transform: uppercase;
+}
+
+header {
+	position: relative;
+	background-image: url(../img/header.png);
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+	border: 10px solid silver;
+} 
+
+.heading{
+	height: auto;
+}
+
+.heading h1{
+	font-size: 54px;
+	line-height: 2.2em;
+}
+
+.heading p{
+	font-family: "LatoRegular", sans-serif;
+	font-size: 15px;
+}
+
+.ellipse{
+	padding: 10% 0 5% 0;
+}
+
+.shape{
+	padding: 5% 0 5% 0;
+}
+
+
+/* End header */
+
+/* Start about-us */
+
+.about-us{
+	height: 450px;
+	position: relative;
+}
+
+.about{
+	position: absolute;
+	background-color: #fff;
+	width: 40%;
+	margin: -1% 30% 0 30%;
+}
+
+.about h2{
+	font-size: 34px;
+}
+
+.us{
+	font-family: "LatoLight", sans-serif;
+	margin: 15% 5% 5% 5%;
+	padding: 5% 0 2% 0;
+	border: 2px solid #393939;
+}
+
+
+/* End about-us */
+
+/* Start services */
+
+.services {
+	background-image: url(../img/services.png);
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+	padding-top: 80px;
+	height: 400px;
+}
+
+.ser{
+	position: absolute;
+	width: 40%;
+	margin: 4% 30% 0 30%;
+	opacity: 0.4
+}
+
+.ser h2{
+	font-size: 34px;
+}
+
+.vices{
+	font-family: "LatoLight", sans-serif;
+	margin: 5% 5% 55% 5%;
+	padding: 5% 0 2% 0;
+	border: 2px solid #fff;
+}
+
+
+/* End services */.
+
+/* Start what-we-do */
+
+#what-we-do{
+	float:left;
+	position: absolute;
+	border: 2px solid #393939;
+	height: 100%;
+}
+
+/* End what-we-do */
+
+/* Start our-works */
+
+.our-works{
+	float: left;
+
+}
+
+.topworkz{
+	height: 1%;
+}
+
+/* End our-works */
